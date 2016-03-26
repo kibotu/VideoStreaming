@@ -1,4 +1,4 @@
-package streaming.android.kibotu.net.streaming;
+package net.kibotu.android.streaming;
 
 import android.annotation.SuppressLint;
 import android.net.Uri;

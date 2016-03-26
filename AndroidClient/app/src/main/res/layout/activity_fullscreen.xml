@@ -6,7 +6,7 @@
         android:layout_height="match_parent"
         android:background="#0099cc"
         android:id="@+id/fullscreen_content"
-        tools:context="streaming.android.kibotu.net.streaming.FullscreenActivity">
+        tools:context=".FullscreenActivity">
 
     <LinearLayout
             android:gravity="center"
