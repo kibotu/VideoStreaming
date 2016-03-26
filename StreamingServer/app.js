@@ -1,3 +1,4 @@
+'use strict';
 var express = require('express');
 var path = require('path');
 var favicon = require('serve-favicon');
@@ -93,4 +94,17 @@ http.createServer(function (req, res) {
         fs.createReadStream(path).pipe(res);
     }
 }).listen(1337);
+
 console.log((new Date()) + ' Server running at http://localhost:1337');
+
+var getIP = require('external-ip')();
+
+getIP(function (err, ip) {
+    if (err) {
+        // every service in the list has failed
+        throw err;
+    }
+    console.log((new Date()) + ' Server running at http://' + ip + ':1337');
+});
+
+
