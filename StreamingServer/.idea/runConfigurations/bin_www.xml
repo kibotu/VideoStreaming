@@ -1,9 +1,0 @@
-<component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="bin\www" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" path-to-js-file="bin/www" working-dir="$PROJECT_DIR$">
-    <envs>
-      <env name="DEBUG" value="StreamingServer:*" />
-    </envs>
-    <browser name="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" url="http://localhost:1337/" />
-    <method />
-  </configuration>
-</component>
