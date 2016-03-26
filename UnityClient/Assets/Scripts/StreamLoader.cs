@@ -1,15 +1,15 @@
 ﻿using UnityEngine;
-using System.Collections;
 
-public class StreamLoader : MonoBehaviour {
-
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+namespace Assets.Scripts
+{
+  public class StreamLoader : MonoBehaviour
+  {
+    void Update()
+    {
+      if (Input.GetKey(KeyCode.Escape))
+      {
+        Application.LoadLevel(0);
+      }
+    }
+  }
 }
