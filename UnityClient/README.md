@@ -4,7 +4,7 @@ Unity client for video streams
 Tiny client that will load a video stream by url.
 
 
-##### Requirements:
+##### Requirements
 
 [Easy Movie Texture](https://www.assetstore.unity3d.com/en/#!/content/1003) Version: 3.13+ (Mar 07, 2016)+
 
@@ -12,7 +12,7 @@ Tiny client that will load a video stream by url.
 
 [Oculus Utilities for Unity 5 ](https://developer.oculus.com/downloads/)  V0.1.3.0-beta
 
-##### Oculus Certificate:
+##### Oculus Certificate
 
 You will need the device id certificate for development purposes.
 
@@ -21,3 +21,7 @@ For that go to [https://developer.oculus.com/osig/](https://developer.oculus.com
 2. Store the file in 
     
     Project/Assets/Plugins/Android/assets/ 
+    
+##### Oculus Project Settings
+
+    ovr_sdk_mobile_1.0.0.1\VrSamples\Unity\SDKExamples\ProjectSettings
