@@ -1,7 +1,7 @@
 Video Streaming Server and Clients
 ----------------------------------
 
-Test environment to watch streamed videos on a android client. Basically a node server streams a local mp4 to android/unity clients. Goal is to see them using [Samsung Gear Vr](https://www.oculus.com/en-us/gear-vr/).
+Test environment to watch streamed videos on an android client using a node server to .mp4 to android/unity clients. Goal is to see them using [Samsung Gear Vr](https://www.oculus.com/en-us/gear-vr/).
 
 
 [![Gear Vr](https://raw.githubusercontent.com/kibotu/VideoStreaming/master/Resources/gearvr.png)](https://developer.oculus.com/downloads/)
