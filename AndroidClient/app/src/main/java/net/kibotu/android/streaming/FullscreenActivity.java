@@ -103,6 +103,7 @@ public class FullscreenActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 toggle();
+
             }
         });
     }
@@ -145,6 +146,7 @@ public class FullscreenActivity extends AppCompatActivity {
         } else {
             show();
         }
+
     }
 
     private void hide() {
@@ -171,6 +173,8 @@ public class FullscreenActivity extends AppCompatActivity {
         // Schedule a runnable to display UI elements after a delay
         mHideHandler.removeCallbacks(mHidePart2Runnable);
         mHideHandler.postDelayed(mShowPart2Runnable, UI_ANIMATION_DELAY);
+
+        delayedHide(AUTO_HIDE_DELAY_MILLIS);
     }
 
     /**
