@@ -5,4 +5,4 @@ Tiny client that will load a video stream by url.
 
 Requirements:
 
-[https://www.assetstore.unity3d.com/en/#!/content/10032](Easy Movie Texture)
+[Easy Movie Texture](https://www.assetstore.unity3d.com/en/#!/content/10032)
